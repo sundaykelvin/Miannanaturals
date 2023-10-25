@@ -1,0 +1,436 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+   
+}
+
+/*-----navbar-------*/
+.navbar{
+    background-color:  #1c1a1aae;  
+}
+
+.navbar-toggler{
+  background-color: #ffffff;
+
+}
+.nav-item{
+    margin:5px 15px;
+  
+}
+
+
+.nav-link {
+    height: 15;
+    color:rgb(255, 251, 251);
+    padding: 5px;
+    text-align: center;
+
+}
+
+.nav-link:hover{
+    color: #f9f8f8;
+    font-weight:bold;
+    transform: scale(1.15);
+    transition: all 0.2s;
+}
+
+.hero-image{
+    
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(rgba(0,0,0, 0.5),rgba(0,0,0,0.5)),url(../images/Vegies.jpeg);
+   
+}
+
+.hero-text{
+    text-align: center;
+    position: relative;
+    transform:translate(-50, -50%);
+    color: white;
+    top: 50%;
+  }
+
+    .hero-text h1{
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+      font-weight: bold;
+     
+    }
+  
+    .hero-text h6{
+      font-weight: bold;
+      letter-spacing:2px ;
+   } 
+/*----- end of navbar-------*/
+
+/*--------sub hero section------*/
+.sub-hero{
+    padding: 0 10%;
+  
+    text-align: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.251); 
+    background: rgba(162, 162, 162, 0.036);; 
+}
+
+.sub-hero-box{
+padding:5%;
+
+}
+
+ .sub-hero-box h5{
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.93);
+ }
+/*-------- end of sub hero section------*/
+
+
+p{
+  color: #1b1b1bab;
+}
+ h4{
+   
+    font-weight: bold;
+    color:#20933f;
+   
+}
+
+/*-------- featured section------*/
+.featured h5 {
+  color: #1b1b1bab;
+}
+
+ .featured-text{
+  color:  #1b1b1bab;;
+}
+
+.featured-box{
+  padding:3%  2%;
+}
+
+.featured-box img{
+  border-radius: 4%;
+ 
+}
+
+.featured-section{
+  padding:2% 5%
+}
+.card-title {
+  color: #20933f;;
+}
+
+.card{
+  transition: all 0.3s;
+  border-radius: 12px;
+  border-color: #00000011;
+  border: none;
+  box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.095);
+}
+
+
+.card-button:hover {
+  background: #048025;
+}
+/*-------- end of featured section------*/
+
+/*book section*/
+
+.book-section{
+padding:0% 10%;
+border-top: 1px solid rgba(128, 128, 128, 0.136); 
+background: rgba(162, 162, 162, 0.036);
+
+}
+
+.book-button{
+background-color:#20933f;
+color: white;
+border-radius: 15px;
+transition: all 0.4s;
+padding: 10px;
+ border: none;
+}
+
+.book-text h5{
+  color:#20933f;
+}
+.book-button:hover{
+   
+    background-color: #134f23;
+}
+
+ .book-text p{
+    letter-spacing: 1px;
+    
+}
+
+/*book section*/
+
+/*-------- Testimonial section------*/
+
+#testimonials{
+
+  margin-top: 50px;
+  height: 70vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ 
+  
+}
+.testimonial-image {
+   border-radius: 50%;
+   margin-bottom: 20px;
+   margin-top: 20px;
+
+}
+
+.testimonial-text h4 {
+   margin-top: 40px;
+   margin-bottom: 20px;
+}
+.testimonial-text {
+  color: rgba(0, 0, 0, 0.579);
+}
+
+.carousel-control-prev-icon{
+  background-color: #282a294d;
+}
+
+.carousel-control-next-icon{
+  background-color: #282a294d;
+}
+
+
+/*-------- End of Testimonial section------*/
+
+/*-------- contact section------*/
+.contact-us {
+    min-height: 100vh;
+    width: 100%;
+    background: #65ea8811;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contain {
+    max-width: 1100px;
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px 60px 30px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  .contain .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .contain.content .left-side {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+  }
+  .content .left-side::before {
+    content: "";
+    position: absolute;
+    height: 70%;
+    width: 2px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #afafb6;
+  }
+  .content .left-side .details {
+    margin: 14px;
+    text-align: center;
+  }
+  .content .left-side .details i {
+    font-size: 30px;
+    color: #20933f;
+    margin-bottom: 10px;
+  }
+  .content .left-side .details .topic {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .content .left-side .details .text-one,
+  .content .left-side .details .text-two {
+    font-size: 14px;
+    color: #afafb6;
+  }
+  
+  .contain .content .right-side {
+    width: 75%;
+    margin-left: 75px;
+  }
+  .content .right-side .topic-text {
+    font-size: 23px;
+    font-weight: 600;
+    color:#20933f;
+  }
+  .right-side .input-box {
+    height: 55px;
+    width: 100%;
+    margin: 12px 0;
+  }
+  .right-side .input-box input,
+  .right-side .input-box textarea {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #f0f1f8;
+    border-radius: 6px;
+    padding: 0 15px;
+    resize: none;
+  }
+  .right-side .message-box {
+    min-height: 110px;
+  }
+  .right-side .input-box textarea {
+    padding-top: 6px;
+  }
+  .right-side .button {
+    display: inline-block;
+    margin-top: 12px;
+  }
+ .contact-button {
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background:  #20933f;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .contact-button:hover {
+    background:rgb(4, 157, 45);
+  }
+  
+  /*--------end  contact section------*/
+  
+
+ /*--------About us section------*/
+  
+
+  .about-us{
+  
+    padding: 7% 15%;
+    background: #10a2300e;
+    border-radius: 15px;
+   
+  }
+.about-socials{
+  color:  #20933f;
+}
+  .about-content p{
+    text-wrap:balance;
+}
+  .about{
+    background: #fbfafa65;
+   
+  }
+
+  .about-us img{
+    border-radius: 20px;
+   }
+
+  .about-content p{
+    margin-top: 10px;
+  }
+
+  .about-content h1{
+    color: #20933f;
+  }
+   /*-------- end of About us section------*/
+
+/*-------- footer section------*/
+.text-reset {
+  text-decoration: none;
+}
+
+
+.useful-links p{
+  color: #000000ab;
+ 
+}
+.useful-links h5{
+  color: #048025;
+ 
+
+}
+/*-------- end of footer section------*/
+  
+
+   @media (max-width: 950px) {
+    .contain {
+      width: 90%;
+      padding: 30px 40px 40px 35px;
+    }
+    .contain .content .right-side {
+      width: 75%;
+      margin-left: 55px;
+    }
+
+    .about-content h1{
+      padding-top:20px ;
+     }
+
+
+
+}
+  
+  @media (max-width: 820px) {
+    .contain {
+      margin: 40px 0;
+      height: 100%;
+    }
+    .contain .content {
+      flex-direction: column-reverse;
+    }
+    .contain .content .left-side {
+      width: 100%;
+      flex-direction: row;
+      margin-top: 40px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .contain .content .left-side::before {
+      display: none;
+    }
+    .contain .content .right-side {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
+  @media screen and (max-width:560px){
+   
+    .book-image img{
+      width: 250px;
+    }
+
+    .about-us img{
+      width:250px ;
+      align-items: center;
+    }
+  }
+  
